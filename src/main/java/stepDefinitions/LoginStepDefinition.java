@@ -39,10 +39,10 @@ public class LoginStepDefinition {
 	 * 
 	 * @Then("^User Enters UserName and Clicks on Next$") public void
 	 * user_Enters_UserName_and_Clicks_on_Next(DataTable userName) {
-	 * List<List<String>> table = userName.raw(); driver.findElement(By.
-	 * xpath("//input[@name='identifier' and @aria-label='Email or phone']")).
-	 * sendKeys(table.get(0).get(0));
-	 * driver.findElement(By.xpath("//content/span[text()='Next']")).click(); }
+	 * List<List<String>> table = userName.raw(); 
+	 * driver.findElement(By.xpath("//input[@name='identifier' and @aria-label='Email or phone']")).sendKeys(table.get(0).get(0));
+	 * driver.findElement(By.xpath("//content/span[text()='Next']")).click(); 
+	 * }
 	 */
 
 	//Applicable for the step in login3.feature
@@ -51,9 +51,8 @@ public class LoginStepDefinition {
 		
 		/*
 		 * for (Map<String, String> table : data.asMaps(String.class, String.class)) {
-		 * driver.findElement(By.
-		 * xpath("//input[@name='identifier' and @aria-label='Email or phone']"))
-		 * .sendKeys(table.get("UserName")); }
+		 * driver.findElement(By.xpath("//input[@name='identifier' and @aria-label='Email or phone']")).sendKeys(table.get("UserName")); 
+		 * }
 		 */
 		Map<String, String> table = (Map<String, String>) data.asMaps(String.class, String.class);
 
