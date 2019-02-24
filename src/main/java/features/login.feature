@@ -18,5 +18,5 @@ Scenario Outline: Login to G-Mail
 	
 	Examples: 
 		|	UserName			|	Password	|
-		|	sandeep.nagothi9	|	Skype@1234	|
-		|	sandeep.nagothi		|	Skype@1234	|
+		|	sandeep.nagothi9	|	abcde@1234	|
+		|	sandeep.nagothi		|	abcde@1234	|

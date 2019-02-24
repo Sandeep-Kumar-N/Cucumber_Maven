@@ -63,7 +63,7 @@ public class LoginStepDefinition {
 	}
 	@Then("^User Enters Password and Clicks on Login$")
 	public void user_Enters_Password_and_Clicks_on_Login(){
-		driver.findElement(By.xpath("//input[@name='password' and @type='password']")).sendKeys("Skype@1234");
+		driver.findElement(By.xpath("//input[@name='password' and @type='password']")).sendKeys("Abcde@1234");
 		driver.findElement(By.xpath("//div[@id=\"passwordNext\"]/content/span")).click();
 	}
 

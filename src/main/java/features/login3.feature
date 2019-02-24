@@ -5,7 +5,7 @@ Scenario: Login to G-Mail
 	When User in Login Page 
 	Then User Enters UserName and Clicks on Next 
 		|	UserName			|	Password	|
-		|	sandeep.nagothi9	|	Skype@1234	|
-		|	sandeep.nagothi8	|	Skype@5678	|
+		|	sandeep.nagothi9	|	Abcde@1234	|
+		|	sandeep.nagothi8	|	QWERT@5678	|
 	Then User Enters Password and Clicks on Login 
 	Then User Navigates to Mail Home Page
